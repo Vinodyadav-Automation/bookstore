@@ -26,6 +26,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Start Python backend
+        working-directory: bookstore
         run: |
           uvicorn main:app --reload
 
