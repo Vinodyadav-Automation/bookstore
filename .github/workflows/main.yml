@@ -25,10 +25,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Start Python backend
+      - name: Start Python backend in background
         working-directory: bookstore
         run: |
-          uvicorn main:app --reload
+          nohup uvicorn main:app --reload &
 
       - name: Wait for server to start
         run: sleep 10
