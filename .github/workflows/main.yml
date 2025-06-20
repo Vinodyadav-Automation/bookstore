@@ -34,5 +34,5 @@ jobs:
 
       - name: Run Java API Tests
         run: |
-          cd automation-java/automation-java
+          cd automation-java
           mvn clean test
