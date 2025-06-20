@@ -1,4 +1,4 @@
-name: Bookstore API Test Pipeline
+name: Run API Tests
 
 on:
   push:
@@ -7,23 +7,19 @@ on:
     branches: [ main ]
 
 jobs:
-  run-tests:
-    name: Run API Tests
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ Checkout code
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      # ✅ Setup JDK 17 (or your version)
       - name: Set up Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '17'
 
-      # ✅ Cache Maven dependencies
       - name: Cache Maven packages
         uses: actions/cache@v4
         with:
@@ -31,24 +27,15 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: ${{ runner.os }}-maven
 
-      # ✅ Build and run tests
+      - name: Start Backend Server
+        run: |
+          cd bookstore # this should contain your backend project (the one with pom.xml)
+          nohup mvn spring-boot:run &
+
+      - name: Wait for Backend to Start
+        run: sleep 25
+
       - name: Run Maven tests
         run: |
           cd bookstore/automation-java/automation-java
-          mvn clean install
-
-      # ✅ Upload Allure results as artifacts
-      - name: Upload Allure results
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: allure-results
-          path: target/allure-results
-
-      # ✅ Upload surefire reports for debugging
-      - name: Upload Test Reports
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: surefire-reports
-          path: target/surefire-reports
+          mvn clean test
