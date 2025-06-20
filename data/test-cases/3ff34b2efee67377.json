@@ -1,0 +1,90 @@
+{
+  "uid" : "3ff34b2efee67377",
+  "name" : "Verify that a book can be updated",
+  "fullName" : "com.bookstore.tests.BookTests.testUpdateBook",
+  "historyId" : "be589b61ad6b0b573361ec5ccb139cc1",
+  "time" : {
+    "start" : 1750446165977,
+    "stop" : 1750446166007,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "baseSetUp",
+    "time" : {
+      "start" : 1750446163716,
+      "stop" : 1750446165799,
+      "duration" : 2083
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.bookstore.tests.BookTests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.bookstore.tests.BookTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateBook"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.bookstore.tests.BookTests"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2209-434"
+  }, {
+    "name" : "thread",
+    "value" : "2136@fv-az2209-434.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Bookstore API"
+  }, {
+    "name" : "feature",
+    "value" : "Book Management"
+  }, {
+    "name" : "story",
+    "value" : "Update Book"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ff34b2efee67377.json",
+  "parameterValues" : [ ]
+}

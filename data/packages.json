@@ -1,0 +1,138 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.bookstore.tests",
+    "children" : [ {
+      "name" : "BookTests",
+      "children" : [ {
+        "name" : "testCreateBook",
+        "uid" : "8fa13e94df6dcf83",
+        "parentUid" : "a484bd563b17667fd7f480207394f233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446165834,
+          "stop" : 1750446165870,
+          "duration" : 36
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testReadBook",
+        "uid" : "d39536fd69ede862",
+        "parentUid" : "a484bd563b17667fd7f480207394f233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446165919,
+          "stop" : 1750446165972,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUpdateBook",
+        "uid" : "3ff34b2efee67377",
+        "parentUid" : "a484bd563b17667fd7f480207394f233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446165977,
+          "stop" : 1750446166007,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteBook",
+        "uid" : "81613b29be408bc6",
+        "parentUid" : "a484bd563b17667fd7f480207394f233",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446166010,
+          "stop" : 1750446166040,
+          "duration" : 30
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a484bd563b17667fd7f480207394f233"
+    }, {
+      "name" : "NegativeTest",
+      "children" : [ {
+        "name" : "testCreateBookInvalidPayload",
+        "uid" : "5b33112ca6828edc",
+        "parentUid" : "a71d47145cb83b6e77a1f05cdf050f07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446166612,
+          "stop" : 1750446166634,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testCreateBookWithoutAuth",
+        "uid" : "e32025b07044e24",
+        "parentUid" : "a71d47145cb83b6e77a1f05cdf050f07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446166638,
+          "stop" : 1750446166646,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testDeleteBookWithoutToken",
+        "uid" : "69c1d1a7a5b01683",
+        "parentUid" : "a71d47145cb83b6e77a1f05cdf050f07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446166649,
+          "stop" : 1750446166655,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "testUpdateNotExisitentBook",
+        "uid" : "88812e9bf6b6cd13",
+        "parentUid" : "a71d47145cb83b6e77a1f05cdf050f07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446166658,
+          "stop" : 1750446166668,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a71d47145cb83b6e77a1f05cdf050f07"
+    }, {
+      "name" : "HealthCheckTest",
+      "children" : [ {
+        "name" : "testHealthEndpoint",
+        "uid" : "9b387b4b171e2be9",
+        "parentUid" : "5e5fef928ce491e3d6589b4eb432f042",
+        "status" : "passed",
+        "time" : {
+          "start" : 1750446167227,
+          "stop" : 1750446167240,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e5fef928ce491e3d6589b4eb432f042"
+    } ],
+    "uid" : "com.bookstore.tests"
+  } ]
+}

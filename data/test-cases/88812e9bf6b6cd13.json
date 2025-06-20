@@ -1,0 +1,90 @@
+{
+  "uid" : "88812e9bf6b6cd13",
+  "name" : "should get 404 for a non existing book",
+  "fullName" : "com.bookstore.tests.NegativeTest.testUpdateNotExisitentBook",
+  "historyId" : "2e8b119a175d547334355ffd15b1cb42",
+  "time" : {
+    "start" : 1750446166658,
+    "stop" : 1750446166668,
+    "duration" : 10
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "baseSetUp",
+    "time" : {
+      "start" : 1750446166042,
+      "stop" : 1750446166609,
+      "duration" : 567
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.bookstore.tests.NegativeTest"
+  }, {
+    "name" : "testClass",
+    "value" : "com.bookstore.tests.NegativeTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testUpdateNotExisitentBook"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.bookstore.tests.NegativeTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az2209-434"
+  }, {
+    "name" : "thread",
+    "value" : "2136@fv-az2209-434.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "epic",
+    "value" : "Bookstore API"
+  }, {
+    "name" : "feature",
+    "value" : "Book Management"
+  }, {
+    "name" : "story",
+    "value" : "Non-Existent Resource"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88812e9bf6b6cd13.json",
+  "parameterValues" : [ ]
+}
