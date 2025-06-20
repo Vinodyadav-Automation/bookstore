@@ -33,6 +33,6 @@ jobs:
         run: sleep 10
 
       - name: Run Java API Tests
-        working-directory: bookstore/automation-java
+        working-directory: bookstore/automation-java/automation-java
         run: |
           mvn clean test
