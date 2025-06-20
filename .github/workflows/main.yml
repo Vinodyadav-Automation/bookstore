@@ -34,8 +34,8 @@ jobs:
       # ✅ Build and run tests
       - name: Run Maven tests
         run: |
-        cd bookstore/automation-java/automation-java
-        mvn clean install
+          cd bookstore/automation-java/automation-java
+          mvn clean install
 
       # ✅ Upload Allure results as artifacts
       - name: Upload Allure results
