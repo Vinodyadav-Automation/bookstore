@@ -1,0 +1,1 @@
+{"uuid":"2182b1a2-b5ff-4196-a223-7696fcc531a3","name":"com.bookstore.tests.HealthCheckTest","children":["c25853ed-7634-4ecb-af92-5339d16e1bde"],"befores":[{"name":"baseSetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1750429683753,"stop":1750429684232}],"afters":[],"start":1750429681744,"stop":1750429684241}
