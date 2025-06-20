@@ -27,7 +27,7 @@ jobs:
 
       - name: Start Python backend
         run: |
-          nohup python3 main.py &
+          uvicorn main:app --reload
 
       - name: Wait for server to start
         run: sleep 10
