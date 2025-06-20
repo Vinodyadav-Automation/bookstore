@@ -1,12 +1,12 @@
 {
-  "uid" : "d39536fd69ede862",
+  "uid" : "fe45e2998bf0f9d9",
   "name" : "Verify that a book can be read",
   "fullName" : "com.bookstore.tests.BookTests.testReadBook",
   "historyId" : "50c2f113e72e6fed5fcdfa5197322ef2",
   "time" : {
-    "start" : 1750446165919,
-    "stop" : 1750446165972,
-    "duration" : 53
+    "start" : 1750446880061,
+    "stop" : 1750446880129,
+    "duration" : 68
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446163716,
-      "stop" : 1750446165799,
-      "duration" : 2083
+      "start" : 1750446877955,
+      "stop" : 1750446879948,
+      "duration" : 1993
     },
     "description" : "",
     "status" : "passed",
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "host",
-    "value" : "fv-az2209-434"
+    "value" : "fv-az1337-162"
   }, {
     "name" : "thread",
-    "value" : "2136@fv-az2209-434.main(1)"
+    "value" : "2121@fv-az1337-162.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d39536fd69ede862.json",
+  "source" : "fe45e2998bf0f9d9.json",
   "parameterValues" : [ ]
 }

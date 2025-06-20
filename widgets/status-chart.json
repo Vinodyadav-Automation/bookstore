@@ -1,90 +1,90 @@
 [ {
-  "uid" : "8fa13e94df6dcf83",
-  "name" : "Verify that a book can be created",
-  "time" : {
-    "start" : 1750446165834,
-    "stop" : 1750446165870,
-    "duration" : 36
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "3ff34b2efee67377",
-  "name" : "Verify that a book can be updated",
-  "time" : {
-    "start" : 1750446165977,
-    "stop" : 1750446166007,
-    "duration" : 30
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "69c1d1a7a5b01683",
-  "name" : "should return 403 while deleteing without token",
-  "time" : {
-    "start" : 1750446166649,
-    "stop" : 1750446166655,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e32025b07044e24",
-  "name" : "Should return 403 accessing without auth token",
-  "time" : {
-    "start" : 1750446166638,
-    "stop" : 1750446166646,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "81613b29be408bc6",
-  "name" : "Verify that a book can be deleted",
-  "time" : {
-    "start" : 1750446166010,
-    "stop" : 1750446166040,
-    "duration" : 30
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "9b387b4b171e2be9",
-  "name" : "testHealthEndpoint",
-  "time" : {
-    "start" : 1750446167227,
-    "stop" : 1750446167240,
-    "duration" : 13
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5b33112ca6828edc",
-  "name" : "should return 400 or 422 for missing required fields",
-  "time" : {
-    "start" : 1750446166612,
-    "stop" : 1750446166634,
-    "duration" : 22
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "88812e9bf6b6cd13",
+  "uid" : "44108bd0cce6003f",
   "name" : "should get 404 for a non existing book",
   "time" : {
-    "start" : 1750446166658,
-    "stop" : 1750446166668,
+    "start" : 1750446880800,
+    "stop" : 1750446880810,
     "duration" : 10
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "d39536fd69ede862",
+  "uid" : "87f9340cbbb594d2",
+  "name" : "should return 400 or 422 for missing required fields",
+  "time" : {
+    "start" : 1750446880759,
+    "stop" : 1750446880777,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e0f8ad3bdcc55bf3",
+  "name" : "testHealthEndpoint",
+  "time" : {
+    "start" : 1750446881375,
+    "stop" : 1750446881392,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "85eace9c4052ddf7",
+  "name" : "Verify that a book can be updated",
+  "time" : {
+    "start" : 1750446880138,
+    "stop" : 1750446880170,
+    "duration" : 32
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fe45e2998bf0f9d9",
   "name" : "Verify that a book can be read",
   "time" : {
-    "start" : 1750446165919,
-    "stop" : 1750446165972,
-    "duration" : 53
+    "start" : 1750446880061,
+    "stop" : 1750446880129,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "72eb8e8047530124",
+  "name" : "Verify that a book can be created",
+  "time" : {
+    "start" : 1750446879977,
+    "stop" : 1750446880016,
+    "duration" : 39
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b26f894a6fda2320",
+  "name" : "Verify that a book can be deleted",
+  "time" : {
+    "start" : 1750446880173,
+    "stop" : 1750446880197,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6f5f8da424ddf810",
+  "name" : "should return 403 while deleteing without token",
+  "time" : {
+    "start" : 1750446880791,
+    "stop" : 1750446880798,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5f6f971554ef383c",
+  "name" : "Should return 403 accessing without auth token",
+  "time" : {
+    "start" : 1750446880780,
+    "stop" : 1750446880788,
+    "duration" : 8
   },
   "status" : "passed",
   "severity" : "critical"

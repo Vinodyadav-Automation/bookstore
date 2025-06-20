@@ -9,13 +9,13 @@
         "name" : "Create Book",
         "children" : [ {
           "name" : "Verify that a book can be created",
-          "uid" : "8fa13e94df6dcf83",
+          "uid" : "72eb8e8047530124",
           "parentUid" : "168f1f47c87648578d449034882b3c1f",
           "status" : "passed",
           "time" : {
-            "start" : 1750446165834,
-            "stop" : 1750446165870,
-            "duration" : 36
+            "start" : 1750446879977,
+            "stop" : 1750446880016,
+            "duration" : 39
           },
           "flaky" : false,
           "newFailed" : false,
@@ -26,13 +26,13 @@
         "name" : "Read Book",
         "children" : [ {
           "name" : "Verify that a book can be read",
-          "uid" : "d39536fd69ede862",
+          "uid" : "fe45e2998bf0f9d9",
           "parentUid" : "938763cb4ec8b94d01945cb4649bdb76",
           "status" : "passed",
           "time" : {
-            "start" : 1750446165919,
-            "stop" : 1750446165972,
-            "duration" : 53
+            "start" : 1750446880061,
+            "stop" : 1750446880129,
+            "duration" : 68
           },
           "flaky" : false,
           "newFailed" : false,
@@ -43,13 +43,13 @@
         "name" : "Update Book",
         "children" : [ {
           "name" : "Verify that a book can be updated",
-          "uid" : "3ff34b2efee67377",
+          "uid" : "85eace9c4052ddf7",
           "parentUid" : "b1537bb722d9951799fe3f18bb871531",
           "status" : "passed",
           "time" : {
-            "start" : 1750446165977,
-            "stop" : 1750446166007,
-            "duration" : 30
+            "start" : 1750446880138,
+            "stop" : 1750446880170,
+            "duration" : 32
           },
           "flaky" : false,
           "newFailed" : false,
@@ -60,13 +60,13 @@
         "name" : "Delete Book",
         "children" : [ {
           "name" : "Verify that a book can be deleted",
-          "uid" : "81613b29be408bc6",
+          "uid" : "b26f894a6fda2320",
           "parentUid" : "aafb5f9fe572b12b52de56a613890a45",
           "status" : "passed",
           "time" : {
-            "start" : 1750446166010,
-            "stop" : 1750446166040,
-            "duration" : 30
+            "start" : 1750446880173,
+            "stop" : 1750446880197,
+            "duration" : 24
           },
           "flaky" : false,
           "newFailed" : false,
@@ -77,13 +77,13 @@
         "name" : "Validation Error",
         "children" : [ {
           "name" : "should return 400 or 422 for missing required fields",
-          "uid" : "5b33112ca6828edc",
+          "uid" : "87f9340cbbb594d2",
           "parentUid" : "b2fa484c1818603e38c7699a3be67297",
           "status" : "passed",
           "time" : {
-            "start" : 1750446166612,
-            "stop" : 1750446166634,
-            "duration" : 22
+            "start" : 1750446880759,
+            "stop" : 1750446880777,
+            "duration" : 18
           },
           "flaky" : false,
           "newFailed" : false,
@@ -94,12 +94,12 @@
         "name" : "Unauthorized access",
         "children" : [ {
           "name" : "Should return 403 accessing without auth token",
-          "uid" : "e32025b07044e24",
+          "uid" : "5f6f971554ef383c",
           "parentUid" : "76988b4e013442e8199dae5241aa9dbf",
           "status" : "passed",
           "time" : {
-            "start" : 1750446166638,
-            "stop" : 1750446166646,
+            "start" : 1750446880780,
+            "stop" : 1750446880788,
             "duration" : 8
           },
           "flaky" : false,
@@ -111,13 +111,13 @@
         "name" : "UnAuthorized Access",
         "children" : [ {
           "name" : "should return 403 while deleteing without token",
-          "uid" : "69c1d1a7a5b01683",
+          "uid" : "6f5f8da424ddf810",
           "parentUid" : "bdcefdd24d2f8808d721266495daa3d2",
           "status" : "passed",
           "time" : {
-            "start" : 1750446166649,
-            "stop" : 1750446166655,
-            "duration" : 6
+            "start" : 1750446880791,
+            "stop" : 1750446880798,
+            "duration" : 7
           },
           "flaky" : false,
           "newFailed" : false,
@@ -128,12 +128,12 @@
         "name" : "Non-Existent Resource",
         "children" : [ {
           "name" : "should get 404 for a non existing book",
-          "uid" : "88812e9bf6b6cd13",
+          "uid" : "44108bd0cce6003f",
           "parentUid" : "fd9128de2b48d055ca2555a2ddd48bbb",
           "status" : "passed",
           "time" : {
-            "start" : 1750446166658,
-            "stop" : 1750446166668,
+            "start" : 1750446880800,
+            "stop" : 1750446880810,
             "duration" : 10
           },
           "flaky" : false,
@@ -145,13 +145,13 @@
         "name" : "Health Check",
         "children" : [ {
           "name" : "testHealthEndpoint",
-          "uid" : "9b387b4b171e2be9",
+          "uid" : "e0f8ad3bdcc55bf3",
           "parentUid" : "8b0f39da5b6bacef72eb84fd318f0ee0",
           "status" : "passed",
           "time" : {
-            "start" : 1750446167227,
-            "stop" : 1750446167240,
-            "duration" : 13
+            "start" : 1750446881375,
+            "stop" : 1750446881392,
+            "duration" : 17
           },
           "flaky" : false,
           "newFailed" : false,

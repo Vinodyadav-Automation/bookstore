@@ -1,12 +1,12 @@
 {
-  "uid" : "e32025b07044e24",
-  "name" : "Should return 403 accessing without auth token",
-  "fullName" : "com.bookstore.tests.NegativeTest.testCreateBookWithoutAuth",
-  "historyId" : "cfa28beaba27298fd5e15da459181675",
+  "uid" : "85eace9c4052ddf7",
+  "name" : "Verify that a book can be updated",
+  "fullName" : "com.bookstore.tests.BookTests.testUpdateBook",
+  "historyId" : "be589b61ad6b0b573361ec5ccb139cc1",
   "time" : {
-    "start" : 1750446166638,
-    "stop" : 1750446166646,
-    "duration" : 8
+    "start" : 1750446880138,
+    "stop" : 1750446880170,
+    "duration" : 32
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446166042,
-      "stop" : 1750446166609,
-      "duration" : 567
+      "start" : 1750446877955,
+      "stop" : 1750446879948,
+      "duration" : 1993
     },
     "description" : "",
     "status" : "passed",
@@ -31,13 +31,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.bookstore.tests.NegativeTest"
+    "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "testClass",
-    "value" : "com.bookstore.tests.NegativeTest"
+    "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "testMethod",
-    "value" : "testCreateBookWithoutAuth"
+    "value" : "testUpdateBook"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -46,13 +46,13 @@
     "value" : "Test"
   }, {
     "name" : "subSuite",
-    "value" : "com.bookstore.tests.NegativeTest"
+    "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "host",
-    "value" : "fv-az2209-434"
+    "value" : "fv-az1337-162"
   }, {
     "name" : "thread",
-    "value" : "2136@fv-az2209-434.main(1)"
+    "value" : "2121@fv-az1337-162.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Unauthorized access"
+    "value" : "Update Book"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e32025b07044e24.json",
+  "source" : "85eace9c4052ddf7.json",
   "parameterValues" : [ ]
 }

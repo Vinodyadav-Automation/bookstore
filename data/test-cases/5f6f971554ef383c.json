@@ -1,12 +1,12 @@
 {
-  "uid" : "81613b29be408bc6",
-  "name" : "Verify that a book can be deleted",
-  "fullName" : "com.bookstore.tests.BookTests.testDeleteBook",
-  "historyId" : "ce1a5313124d6d0db3a333aee54876b9",
+  "uid" : "5f6f971554ef383c",
+  "name" : "Should return 403 accessing without auth token",
+  "fullName" : "com.bookstore.tests.NegativeTest.testCreateBookWithoutAuth",
+  "historyId" : "cfa28beaba27298fd5e15da459181675",
   "time" : {
-    "start" : 1750446166010,
-    "stop" : 1750446166040,
-    "duration" : 30
+    "start" : 1750446880780,
+    "stop" : 1750446880788,
+    "duration" : 8
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446163716,
-      "stop" : 1750446165799,
-      "duration" : 2083
+      "start" : 1750446880199,
+      "stop" : 1750446880757,
+      "duration" : 558
     },
     "description" : "",
     "status" : "passed",
@@ -31,13 +31,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.bookstore.tests.BookTests"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testClass",
-    "value" : "com.bookstore.tests.BookTests"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testMethod",
-    "value" : "testDeleteBook"
+    "value" : "testCreateBookWithoutAuth"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -46,13 +46,13 @@
     "value" : "Test"
   }, {
     "name" : "subSuite",
-    "value" : "com.bookstore.tests.BookTests"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "host",
-    "value" : "fv-az2209-434"
+    "value" : "fv-az1337-162"
   }, {
     "name" : "thread",
-    "value" : "2136@fv-az2209-434.main(1)"
+    "value" : "2121@fv-az1337-162.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Delete Book"
+    "value" : "Unauthorized access"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "81613b29be408bc6.json",
+  "source" : "5f6f971554ef383c.json",
   "parameterValues" : [ ]
 }

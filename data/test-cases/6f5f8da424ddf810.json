@@ -1,12 +1,12 @@
 {
-  "uid" : "9b387b4b171e2be9",
-  "name" : "testHealthEndpoint",
-  "fullName" : "com.bookstore.tests.HealthCheckTest.testHealthEndpoint",
-  "historyId" : "de71532d153b9d3eb95dedda479e38bd",
+  "uid" : "6f5f8da424ddf810",
+  "name" : "should return 403 while deleteing without token",
+  "fullName" : "com.bookstore.tests.NegativeTest.testDeleteBookWithoutToken",
+  "historyId" : "cb3f396d7fcc7d188d8ad702f4ee6b02",
   "time" : {
-    "start" : 1750446167227,
-    "stop" : 1750446167240,
-    "duration" : 13
+    "start" : 1750446880791,
+    "stop" : 1750446880798,
+    "duration" : 7
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446166669,
-      "stop" : 1750446167226,
-      "duration" : 557
+      "start" : 1750446880199,
+      "stop" : 1750446880757,
+      "duration" : 558
     },
     "description" : "",
     "status" : "passed",
@@ -31,13 +31,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.bookstore.tests.HealthCheckTest"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testClass",
-    "value" : "com.bookstore.tests.HealthCheckTest"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testMethod",
-    "value" : "testHealthEndpoint"
+    "value" : "testDeleteBookWithoutToken"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -46,13 +46,13 @@
     "value" : "Test"
   }, {
     "name" : "subSuite",
-    "value" : "com.bookstore.tests.HealthCheckTest"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "host",
-    "value" : "fv-az2209-434"
+    "value" : "fv-az1337-162"
   }, {
     "name" : "thread",
-    "value" : "2136@fv-az2209-434.main(1)"
+    "value" : "2121@fv-az1337-162.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Health Check"
+    "value" : "UnAuthorized Access"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9b387b4b171e2be9.json",
+  "source" : "6f5f8da424ddf810.json",
   "parameterValues" : [ ]
 }
