@@ -1,12 +1,12 @@
 {
-  "uid" : "e0f8ad3bdcc55bf3",
-  "name" : "testHealthEndpoint",
-  "fullName" : "com.bookstore.tests.HealthCheckTest.testHealthEndpoint",
-  "historyId" : "de71532d153b9d3eb95dedda479e38bd",
+  "uid" : "53da34ef296e722b",
+  "name" : "should get 404 for a non existing book",
+  "fullName" : "com.bookstore.tests.NegativeTest.testUpdateNotExisitentBook",
+  "historyId" : "2e8b119a175d547334355ffd15b1cb42",
   "time" : {
-    "start" : 1750446881375,
-    "stop" : 1750446881392,
-    "duration" : 17
+    "start" : 1750508322330,
+    "stop" : 1750508322340,
+    "duration" : 10
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446880811,
-      "stop" : 1750446881373,
-      "duration" : 562
+      "start" : 1750508321723,
+      "stop" : 1750508322283,
+      "duration" : 560
     },
     "description" : "",
     "status" : "passed",
@@ -31,13 +31,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.bookstore.tests.HealthCheckTest"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testClass",
-    "value" : "com.bookstore.tests.HealthCheckTest"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testMethod",
-    "value" : "testHealthEndpoint"
+    "value" : "testUpdateNotExisitentBook"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -46,13 +46,13 @@
     "value" : "Test"
   }, {
     "name" : "subSuite",
-    "value" : "com.bookstore.tests.HealthCheckTest"
+    "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-162"
+    "value" : "fv-az1719-212"
   }, {
     "name" : "thread",
-    "value" : "2121@fv-az1337-162.main(1)"
+    "value" : "2133@fv-az1719-212.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Health Check"
+    "value" : "Non-Existent Resource"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e0f8ad3bdcc55bf3.json",
+  "source" : "53da34ef296e722b.json",
   "parameterValues" : [ ]
 }

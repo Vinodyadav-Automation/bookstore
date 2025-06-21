@@ -1,12 +1,12 @@
 {
-  "uid" : "44108bd0cce6003f",
-  "name" : "should get 404 for a non existing book",
-  "fullName" : "com.bookstore.tests.NegativeTest.testUpdateNotExisitentBook",
-  "historyId" : "2e8b119a175d547334355ffd15b1cb42",
+  "uid" : "fadc7965870ea57a",
+  "name" : "Should return 403 accessing without auth token",
+  "fullName" : "com.bookstore.tests.NegativeTest.testCreateBookWithoutAuth",
+  "historyId" : "cfa28beaba27298fd5e15da459181675",
   "time" : {
-    "start" : 1750446880800,
-    "stop" : 1750446880810,
-    "duration" : 10
+    "start" : 1750508322309,
+    "stop" : 1750508322318,
+    "duration" : 9
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446880199,
-      "stop" : 1750446880757,
-      "duration" : 558
+      "start" : 1750508321723,
+      "stop" : 1750508322283,
+      "duration" : 560
     },
     "description" : "",
     "status" : "passed",
@@ -37,7 +37,7 @@
     "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testMethod",
-    "value" : "testUpdateNotExisitentBook"
+    "value" : "testCreateBookWithoutAuth"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-162"
+    "value" : "fv-az1719-212"
   }, {
     "name" : "thread",
-    "value" : "2121@fv-az1337-162.main(1)"
+    "value" : "2133@fv-az1719-212.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Non-Existent Resource"
+    "value" : "Unauthorized access"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "44108bd0cce6003f.json",
+  "source" : "fadc7965870ea57a.json",
   "parameterValues" : [ ]
 }

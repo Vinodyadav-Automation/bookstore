@@ -1,12 +1,12 @@
 {
-  "uid" : "b26f894a6fda2320",
+  "uid" : "f295bffb0acff161",
   "name" : "Verify that a book can be deleted",
   "fullName" : "com.bookstore.tests.BookTests.testDeleteBook",
   "historyId" : "ce1a5313124d6d0db3a333aee54876b9",
   "time" : {
-    "start" : 1750446880173,
-    "stop" : 1750446880197,
-    "duration" : 24
+    "start" : 1750508321697,
+    "stop" : 1750508321720,
+    "duration" : 23
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446877955,
-      "stop" : 1750446879948,
-      "duration" : 1993
+      "start" : 1750508319447,
+      "stop" : 1750508321483,
+      "duration" : 2036
     },
     "description" : "",
     "status" : "passed",
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-162"
+    "value" : "fv-az1719-212"
   }, {
     "name" : "thread",
-    "value" : "2121@fv-az1337-162.main(1)"
+    "value" : "2133@fv-az1719-212.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "b26f894a6fda2320.json",
+  "source" : "f295bffb0acff161.json",
   "parameterValues" : [ ]
 }

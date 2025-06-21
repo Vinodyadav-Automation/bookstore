@@ -1,12 +1,12 @@
 {
-  "uid" : "72eb8e8047530124",
-  "name" : "Verify that a book can be created",
-  "fullName" : "com.bookstore.tests.BookTests.testCreateBook",
-  "historyId" : "cbd3e7196551f0837d1e867121b86d57",
+  "uid" : "282f407afcfe519",
+  "name" : "testHealthEndpoint",
+  "fullName" : "com.bookstore.tests.HealthCheckTest.testHealthEndpoint",
+  "historyId" : "de71532d153b9d3eb95dedda479e38bd",
   "time" : {
-    "start" : 1750446879977,
-    "stop" : 1750446880016,
-    "duration" : 39
+    "start" : 1750508322904,
+    "stop" : 1750508322921,
+    "duration" : 17
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446877955,
-      "stop" : 1750446879948,
-      "duration" : 1993
+      "start" : 1750508322341,
+      "stop" : 1750508322902,
+      "duration" : 561
     },
     "description" : "",
     "status" : "passed",
@@ -31,13 +31,13 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "package",
-    "value" : "com.bookstore.tests.BookTests"
+    "value" : "com.bookstore.tests.HealthCheckTest"
   }, {
     "name" : "testClass",
-    "value" : "com.bookstore.tests.BookTests"
+    "value" : "com.bookstore.tests.HealthCheckTest"
   }, {
     "name" : "testMethod",
-    "value" : "testCreateBook"
+    "value" : "testHealthEndpoint"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -46,13 +46,13 @@
     "value" : "Test"
   }, {
     "name" : "subSuite",
-    "value" : "com.bookstore.tests.BookTests"
+    "value" : "com.bookstore.tests.HealthCheckTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-162"
+    "value" : "fv-az1719-212"
   }, {
     "name" : "thread",
-    "value" : "2121@fv-az1337-162.main(1)"
+    "value" : "2133@fv-az1719-212.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Create Book"
+    "value" : "Health Check"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "72eb8e8047530124.json",
+  "source" : "282f407afcfe519.json",
   "parameterValues" : [ ]
 }

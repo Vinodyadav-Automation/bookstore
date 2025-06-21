@@ -1,12 +1,12 @@
 {
-  "uid" : "fe45e2998bf0f9d9",
-  "name" : "Verify that a book can be read",
-  "fullName" : "com.bookstore.tests.BookTests.testReadBook",
-  "historyId" : "50c2f113e72e6fed5fcdfa5197322ef2",
+  "uid" : "aaa5dbff4d0b35d4",
+  "name" : "Verify that a book can be updated",
+  "fullName" : "com.bookstore.tests.BookTests.testUpdateBook",
+  "historyId" : "be589b61ad6b0b573361ec5ccb139cc1",
   "time" : {
-    "start" : 1750446880061,
-    "stop" : 1750446880129,
-    "duration" : 68
+    "start" : 1750508321664,
+    "stop" : 1750508321692,
+    "duration" : 28
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446877955,
-      "stop" : 1750446879948,
-      "duration" : 1993
+      "start" : 1750508319447,
+      "stop" : 1750508321483,
+      "duration" : 2036
     },
     "description" : "",
     "status" : "passed",
@@ -37,7 +37,7 @@
     "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "testMethod",
-    "value" : "testReadBook"
+    "value" : "testUpdateBook"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-162"
+    "value" : "fv-az1719-212"
   }, {
     "name" : "thread",
-    "value" : "2121@fv-az1337-162.main(1)"
+    "value" : "2133@fv-az1719-212.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Read Book"
+    "value" : "Update Book"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fe45e2998bf0f9d9.json",
+  "source" : "aaa5dbff4d0b35d4.json",
   "parameterValues" : [ ]
 }

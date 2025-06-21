@@ -1,12 +1,12 @@
 {
-  "uid" : "5f6f971554ef383c",
-  "name" : "Should return 403 accessing without auth token",
-  "fullName" : "com.bookstore.tests.NegativeTest.testCreateBookWithoutAuth",
-  "historyId" : "cfa28beaba27298fd5e15da459181675",
+  "uid" : "38c200adb7c3125d",
+  "name" : "should return 400 or 422 for missing required fields",
+  "fullName" : "com.bookstore.tests.NegativeTest.testCreateBookInvalidPayload",
+  "historyId" : "bfa8defc9e08b69eaa8bbffd28fd9b96",
   "time" : {
-    "start" : 1750446880780,
-    "stop" : 1750446880788,
-    "duration" : 8
+    "start" : 1750508322285,
+    "stop" : 1750508322306,
+    "duration" : 21
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750446880199,
-      "stop" : 1750446880757,
-      "duration" : 558
+      "start" : 1750508321723,
+      "stop" : 1750508322283,
+      "duration" : 560
     },
     "description" : "",
     "status" : "passed",
@@ -37,7 +37,7 @@
     "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "testMethod",
-    "value" : "testCreateBookWithoutAuth"
+    "value" : "testCreateBookInvalidPayload"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.NegativeTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1337-162"
+    "value" : "fv-az1719-212"
   }, {
     "name" : "thread",
-    "value" : "2121@fv-az1337-162.main(1)"
+    "value" : "2133@fv-az1719-212.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Unauthorized access"
+    "value" : "Validation Error"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "5f6f971554ef383c.json",
+  "source" : "38c200adb7c3125d.json",
   "parameterValues" : [ ]
 }
