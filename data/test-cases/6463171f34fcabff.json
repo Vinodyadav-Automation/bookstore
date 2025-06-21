@@ -1,12 +1,12 @@
 {
-  "uid" : "282f407afcfe519",
+  "uid" : "6463171f34fcabff",
   "name" : "testHealthEndpoint",
   "fullName" : "com.bookstore.tests.HealthCheckTest.testHealthEndpoint",
   "historyId" : "de71532d153b9d3eb95dedda479e38bd",
   "time" : {
-    "start" : 1750508322904,
-    "stop" : 1750508322921,
-    "duration" : 17
+    "start" : 1750508808340,
+    "stop" : 1750508808358,
+    "duration" : 18
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750508322341,
-      "stop" : 1750508322902,
-      "duration" : 561
+      "start" : 1750508807780,
+      "stop" : 1750508808338,
+      "duration" : 558
     },
     "description" : "",
     "status" : "passed",
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.HealthCheckTest"
   }, {
     "name" : "host",
-    "value" : "fv-az1719-212"
+    "value" : "fv-az1360-490"
   }, {
     "name" : "thread",
-    "value" : "2133@fv-az1719-212.main(1)"
+    "value" : "2134@fv-az1360-490.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "282f407afcfe519.json",
+  "source" : "6463171f34fcabff.json",
   "parameterValues" : [ ]
 }

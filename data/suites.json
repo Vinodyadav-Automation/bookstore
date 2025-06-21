@@ -9,52 +9,52 @@
         "name" : "com.bookstore.tests.BookTests",
         "children" : [ {
           "name" : "Verify that a book can be created",
-          "uid" : "dd1d4e7a3da12151",
+          "uid" : "e8b3498345f1077d",
           "parentUid" : "af56d38c53c1187eb1edf9d58e34cba4",
           "status" : "passed",
           "time" : {
-            "start" : 1750508321511,
-            "stop" : 1750508321548,
-            "duration" : 37
+            "start" : 1750508806970,
+            "stop" : 1750508807006,
+            "duration" : 36
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Verify that a book can be read",
-          "uid" : "15f145ba173f03c4",
+          "uid" : "147f667f821441d3",
           "parentUid" : "af56d38c53c1187eb1edf9d58e34cba4",
           "status" : "passed",
           "time" : {
-            "start" : 1750508321595,
-            "stop" : 1750508321657,
-            "duration" : 62
+            "start" : 1750508807055,
+            "stop" : 1750508807112,
+            "duration" : 57
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Verify that a book can be updated",
-          "uid" : "aaa5dbff4d0b35d4",
+          "uid" : "e97790c05b85629e",
           "parentUid" : "af56d38c53c1187eb1edf9d58e34cba4",
           "status" : "passed",
           "time" : {
-            "start" : 1750508321664,
-            "stop" : 1750508321692,
-            "duration" : 28
+            "start" : 1750508807117,
+            "stop" : 1750508807144,
+            "duration" : 27
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Verify that a book can be deleted",
-          "uid" : "f295bffb0acff161",
+          "uid" : "a46102a6bfecad78",
           "parentUid" : "af56d38c53c1187eb1edf9d58e34cba4",
           "status" : "passed",
           "time" : {
-            "start" : 1750508321697,
-            "stop" : 1750508321720,
-            "duration" : 23
+            "start" : 1750508807148,
+            "stop" : 1750508807170,
+            "duration" : 22
           },
           "flaky" : false,
           "newFailed" : false,
@@ -65,52 +65,52 @@
         "name" : "com.bookstore.tests.NegativeTest",
         "children" : [ {
           "name" : "should return 400 or 422 for missing required fields",
-          "uid" : "38c200adb7c3125d",
+          "uid" : "74c9b6c71cdc0f68",
           "parentUid" : "ce668d915a839a7726d890b36176b462",
           "status" : "passed",
           "time" : {
-            "start" : 1750508322285,
-            "stop" : 1750508322306,
-            "duration" : 21
+            "start" : 1750508807732,
+            "stop" : 1750508807750,
+            "duration" : 18
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Should return 403 accessing without auth token",
-          "uid" : "fadc7965870ea57a",
+          "uid" : "e1f9186ff1d47b28",
           "parentUid" : "ce668d915a839a7726d890b36176b462",
           "status" : "passed",
           "time" : {
-            "start" : 1750508322309,
-            "stop" : 1750508322318,
-            "duration" : 9
+            "start" : 1750508807753,
+            "stop" : 1750508807759,
+            "duration" : 6
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "should return 403 while deleteing without token",
-          "uid" : "f2ae0ff1e286ea3e",
+          "uid" : "d0b43d31bbcb5808",
           "parentUid" : "ce668d915a839a7726d890b36176b462",
           "status" : "passed",
           "time" : {
-            "start" : 1750508322320,
-            "stop" : 1750508322327,
-            "duration" : 7
+            "start" : 1750508807761,
+            "stop" : 1750508807766,
+            "duration" : 5
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "should get 404 for a non existing book",
-          "uid" : "53da34ef296e722b",
+          "uid" : "a944d8e3b14c710",
           "parentUid" : "ce668d915a839a7726d890b36176b462",
           "status" : "passed",
           "time" : {
-            "start" : 1750508322330,
-            "stop" : 1750508322340,
-            "duration" : 10
+            "start" : 1750508807769,
+            "stop" : 1750508807778,
+            "duration" : 9
           },
           "flaky" : false,
           "newFailed" : false,
@@ -121,13 +121,13 @@
         "name" : "com.bookstore.tests.HealthCheckTest",
         "children" : [ {
           "name" : "testHealthEndpoint",
-          "uid" : "282f407afcfe519",
+          "uid" : "6463171f34fcabff",
           "parentUid" : "cc781d7cc799acaf0980460b13c42385",
           "status" : "passed",
           "time" : {
-            "start" : 1750508322904,
-            "stop" : 1750508322921,
-            "duration" : 17
+            "start" : 1750508808340,
+            "stop" : 1750508808358,
+            "duration" : 18
           },
           "flaky" : false,
           "newFailed" : false,

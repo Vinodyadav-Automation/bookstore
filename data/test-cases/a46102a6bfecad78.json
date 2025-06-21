@@ -1,12 +1,12 @@
 {
-  "uid" : "dd1d4e7a3da12151",
-  "name" : "Verify that a book can be created",
-  "fullName" : "com.bookstore.tests.BookTests.testCreateBook",
-  "historyId" : "cbd3e7196551f0837d1e867121b86d57",
+  "uid" : "a46102a6bfecad78",
+  "name" : "Verify that a book can be deleted",
+  "fullName" : "com.bookstore.tests.BookTests.testDeleteBook",
+  "historyId" : "ce1a5313124d6d0db3a333aee54876b9",
   "time" : {
-    "start" : 1750508321511,
-    "stop" : 1750508321548,
-    "duration" : 37
+    "start" : 1750508807148,
+    "stop" : 1750508807170,
+    "duration" : 22
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "baseSetUp",
     "time" : {
-      "start" : 1750508319447,
-      "stop" : 1750508321483,
-      "duration" : 2036
+      "start" : 1750508804965,
+      "stop" : 1750508806940,
+      "duration" : 1975
     },
     "description" : "",
     "status" : "passed",
@@ -37,7 +37,7 @@
     "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "testMethod",
-    "value" : "testCreateBook"
+    "value" : "testDeleteBook"
   }, {
     "name" : "parentSuite",
     "value" : "Suite"
@@ -49,10 +49,10 @@
     "value" : "com.bookstore.tests.BookTests"
   }, {
     "name" : "host",
-    "value" : "fv-az1719-212"
+    "value" : "fv-az1360-490"
   }, {
     "name" : "thread",
-    "value" : "2133@fv-az1719-212.main(1)"
+    "value" : "2134@fv-az1360-490.main(1)"
   }, {
     "name" : "framework",
     "value" : "testng"
@@ -67,7 +67,7 @@
     "value" : "Book Management"
   }, {
     "name" : "story",
-    "value" : "Create Book"
+    "value" : "Delete Book"
   }, {
     "name" : "severity",
     "value" : "critical"
@@ -85,6 +85,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dd1d4e7a3da12151.json",
+  "source" : "a46102a6bfecad78.json",
   "parameterValues" : [ ]
 }
